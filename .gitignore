@@ -1,33 +1,62 @@
-# Gradle files
+# ======================
+# Android Studio / IntelliJ
+# ======================
+.idea/
+*.iml
+*.ipr
+*.iws
+.idea_modules/
+
+# ======================
+# Gradle
+# ======================
 .gradle/
 build/
+**/build/
 
-# Local configuration file (sdk path, etc)
+# ======================
+# Local config (machine-specific)
+# ======================
 local.properties
 
-# Log/OS Files
+# ======================
+# OS files
+# ======================
+.DS_Store
+Thumbs.db
+
+# ======================
+# Logs
+# ======================
 *.log
 
-# Android Studio generated files and folders
+# ======================
+# Android generated
+# ======================
 captures/
 .externalNativeBuild/
 .cxx/
-*.apk
-output.json
 
-# IntelliJ
-*.iml
-.idea/
-misc.xml
-deploymentTargetDropDown.xml
-render.experimental.xml
-
-# Keystore files
+# ======================
+# Keystore / secrets
+# ======================
 *.jks
 *.keystore
 
-# Google Services (e.g. APIs or Firebase)
-google-services.json
+# ======================
+# Kotlin / Java
+# ======================
+*.class
 
-# Android Profiling
-*.hprof
+# ======================
+# Temporary / backups
+# ======================
+*.swp
+*.bak
+*.tmp
+
+# ======================
+# Firebase / Google Services (OPTIONAL)
+# Uncomment if you do NOT want them in git
+# ======================
+# google-services.json
